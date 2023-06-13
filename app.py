@@ -4,7 +4,7 @@ from telebot import types
 import openai
 
 # Set up your OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = 'YOUR-OPENAI-API'
 
 # Dictionary to map agents to their prompts
 AGENT_PROMPTS = {}
@@ -23,7 +23,7 @@ AGENT_COMMANDS = {
 }
 
 # Create a telebot instance
-bot = telebot.TeleBot("6087842461:AAHyMuzcriZCsQfD9y282EgQdUcOgp62unM")
+bot = telebot.TeleBot("YOUR-TELEGRAM-TOKEN")
 
 # Function to handle incoming messages
 @bot.message_handler(func=lambda message: True)
