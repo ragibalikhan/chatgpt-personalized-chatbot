@@ -1,6 +1,7 @@
 # Telegram Business Personalized Chat-Bot
 
 This is a Telegram chat-bot designed for a business that provides personalized responses to users based on their needs. The chat-bot is built using the OpenAI API and the Telebot library.
+Test the telegram bot on [ConnectFluence](https://t.me/ConnectFluencebot).
 
 ## Features
 
